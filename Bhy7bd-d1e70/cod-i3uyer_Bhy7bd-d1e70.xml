@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Prologus</title>
+        <author>Petrus Hispanus</author>
+        <editor>Alonso</editor>
+        <respStmt>
+          <name>Ana Ferreira</name>
+          <resp>TEI Encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Prologus</title>
+          <date when="2019-07-22">July 22, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="cod-i3uyer">Alonso 1941</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition. </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-06-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="Bhy7bd-d1e70">
+        <head xml:id="Bhy7bd-d1e70">Prologus</head>
+        <p>[fol.3r, col.1] In honorem summe sancte ac individue trinitatis Patris ac filii et Spiritus Sancti. Incipit scientia libri de anima a Petro Hyspano Portugalensi edita.</p>
+        <p>Philosophice speculationis sublimis intuitos perspicacis investigationis ductu mundane machine universum ambitum conprehendens, omnium rerum essentias, proprietates, virtutes, opera, ordinem, pondus, mensuram, effectus. horumque causas nititur indagare. Nunc  autem ad res supremas aciem summam sui aspectus erigit. Nunc ad ínfimas parva descendit, nunc medias mediocri tramite circuit, nunc circa singulas discursus exercens mútuos, incessum circa extremas ac medias circumvolvit et in singulis primi opificis virtutis, sapiencie, bonitatis et operum eminenciam et nature secreta satagit perscrutari. Substantiarum igitur, et incorporearum et corporearum, continentiam, ad triplex genus rerum: entium, viventium ac cognoscentium redactam, earumque circumstantias investigat. Set corporearum rerum notitia sensitive discretionis aspectibus presentata ad facilem perducitur comprehensionem, Quippe cum ipse corporali materie sint connexe, et materialibus ac sensibilibus stipate appendiciis, quibus virtutibus sensitivis,a quibus cognitio humana ortum contrahit, offeruntur. Incorporearum autem excellentia sensibilis perquisitionis vigorem effugiens,quippe cum ipse a materie corporalis mole eiusque accidentibus sensibilibus sint imunes, multa ac diligente perscrutatione indigente intellectus, ut ipsarum perceptio mentis oculis perspicue sublimitatis illustratione choruscantibus presentatur, quorum effectus et
+        <pb>opera sensibus occurentia ad ipsarum indagationem excitant intellectum, et cum ex ipsarum inspectione intellectui magna perfectio adquiratur, delectatio ex plene lucis irradiatione cpmpleatur. Difficultas utilitatem sibi associans mentem sollicitet, et in earum nobili contemplation anima lucis perlustrata plenitudine ad summum perveniat conplementum, circa fructuose messis scientie earum collectionem tota anime humane naturalis industria elaborat; omnes autem anime differentie spiritualium rerum naturam participantes subiectis corporibus sunt connexe et ideo earum substantie oculte corporalibus effectibus propalantur. Inter quas anima intelectiva extat precipua, cui ex spiritualis lucis decore cognitionis collata est potestas, que spiritualibus substantiis natural conformitate coequatur, licet corporalis subiecti materie sit coniuncta, qur ad summi conditoris exemplar ab ipso procreata sapientie eius efigiem ex divina collatione dicitur optinere, que suiipsius notitiam merito inquirit, nisi corporalis nubis umbraculo prepedita labi in sui ignorantiam compellatur, et se presentem tamquam absenti et distancia positam corporalis molis involucris interpositis, se velut extraneam laboret cum inquisitione sollicita invenisse. Verumptamen, cum eius essentia [fol. 3r, col.2] sit a material fece libera et ab eius existencia denudata, et sibi secundum indistantem sui presentiam counita, se ipsam continua perceptione nata est comprehendere, sui fulgoris radiis perlustra(ri) nisi eius aspectum intimum defedet nubes caliginis. Nunca utem censetur ydoneum, ut substantia omnium rerum genera, que mundana continet constitutivo, sua capacitate colligens, primum factorem eiusque opera discernens, totius veli et mundi gyrum nitens, diversis semitis circuire seipsam tamquam alienam a sua cognitione excludat, et que ad tocius similitudinem sapientie constructa, omnium rerum similitudinis in se gerens, sui similitudinem qua carece nequit, tamquam amissam, oblivionis interventu, in se genere non perpendat et se extra se cum instabili amentia sua vagabunda perquirat. Dignum igitur este st ut anima sui cognitionem non negligat nec inepto sopore submerse suam existentiam non retractet neque ad exterior vagans sui intraneam discretionem omittat;
+        <pb>set se, viva luce succensa, ad suum interiorem collecta thalamum, percipere non desistat, et alias anime differentias sibi secundum naturalem ordinem subiectas atque conexas earumque dispositiones, corpora et organa cognoscere sit parata.</p>
+        <p>Ad nostre igitur thronum mentis curiosa nec non executione Digna ascendit intentio, ut de natura anime differentiarumque eius compendiosam ac perfectam ordinaremus traditionem, ut, postquam sermones inquisitivi sub disputationis examine procedentes in aliis operibus a nobis editis sint premissi, in hoc ergo negotio omnium inquisitionum veritatis sentencie certis summis ac brevibus concludantur. In hac igitur sciencia tradetur perfecta notitia  substantie anime, differentiarumm virtutum, operum, proprietatum et omnium disputationum, que ei insunt ex natura própria er corporis subiecti, et procedet hystoria circa animam intellectivam separatam et circa eius perpetuam et inmortalem existenciam et organorum distinctiones assignabuntur. antiquorum vero opiniones in fine operis proferentur. Procedent autem veritatis sentencie recto, artificioso ac recto tramite non ambiguis argutiarum trucinationibus agitate, sed causarum demosntrationum suffulte, non prolixorum sermonum involucris honorate, sed eloquiorum succinctorum ac dilucidorum continentia promulgate, non ornatu inutili depicte, non vili verborum ruditate defecte, non ex inmoderata breviatte obscure, set in omnibus, secundum quod materie tractatus requirit exigentia, debita erit continentia ministranda. In huius vero operis aggressu divinum ducatum et aisilium imploramus, ut eius lucis fulgor viam iluminet intellectus. Libri autem huius continentia in tresdecim tractatuum distinctionibus integratur. 
+          </p><pb>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tractatus 4</title>
+        <author>Petrus Hispanus</author>
+        <editor>Alonso</editor>
+        <respStmt>
+          <name>Ana Ferreira</name>
+          <resp>TEI Encoding</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Tractatus 4</title>
+          <date when="2019-08-08">August 8, 2019</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>
+          <ref target="http://petrushispanus.eu/project1">Project Petrus Hispanus Works</ref>
+        </authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              >Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A" n="cod-u8jv3d">Alonso 1941</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a critical edition. </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2019-08-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on"> </div>
+    </front>
+    <body>
+      <div xml:id="Bhy7bd-d1e115">
+        <head>INCIPIT [TRACTACTUS] QUARTUS: DE VIRTUTE CORPORIS REGITIVA</head>
+        <p>Regitiva virtus cum corpori viventi ministret regimen, dignum est ut de ipsa quartus tractactus instituatur, ut ipsa et eius operatio in notitiam redigantur. Continet autem hic tractatus quatuor capitula: In primo agitur de stabilitate in esse huius virtutis et de eius essentia. In secundo de distinctione differentiarum eius. In tertio de operationibus eius. In quarto de ordine eius ad alias virtutes.</p>
+      </div>
+      <div>
+        <head>CAPITULUM PRIMUM: DE STABILITATE ET ESSENTIA HUIUS VIRTUTIS</head>
+          <p>Totius maioris corporalis mundi machina in regiminis stabilitate, conservationis tutela et ordinis decore consistens ab aliqua virtute certam suscipit gubernationem qua eius partes non inordinato discursu evagantur set suis distinctis limitibus disponuntur. Hec autem virtus a factoris primi emanat providentia. Hanc enim mundi constitutionem ex nichilo in esse construxit, et hec eadem ipsum firma stabilitate in ordinis dispositione construit. Hec igitur virtus aut alia eius subiecta singulis partibus universis proprios situs ad quos proprias dirigunt inclinationes adaptat et singularum proprias ordinat actiones et ipsas in sua natura conservat ea ad proficua presequenda concitans, a contrariis nocentibus removens. </p>
+          <p>Hec vero virtus generalis est omnia comprehendens. </p>
+          <p>In singulis vero mundi partibus simplicibus atque mixtis viventibus vitaque carentibus sunt virtutes naturales proprie regitive singulas in suo statu gobernantes; unde elementa, lapides et mineralia virtutes habent proprias naturales quibus reguntur et conservantur. Necesse igitur est similiter in minori mundo virtutem regitivam adaptari que eius machinam conservet et regat, ordinet ac disponat et generaliter toti constitutioni respondet, propria vero menbris singulis deoutantur. Set in rebus vita carentibus natura regimen ministrat: in viventibus vero a natura et ab anima regimen procedit. </p>
+          <p>Inter modos vero secundum quos natura dicitur septem sunt sollempnes. Dicitur igitur natura virtus que est principium ordinationis partium universi; dicitur principium motus et motus in eo<pb> </pb>in quo est natura secundum viam accidentis; dicitur virtus insita rebus existentibus simila producens; dicitur in rebus viventibus complexio; dicitur menbrorum compositio; dicitur consuendo que nature vim gerit; dicitur natura virtus corporis regitiva; corpus vero materiale se ipso non regitur; necesse est igitur aliquam ei inesse virtutem a qua suscipiat regimen. Set hec virtus videtur a corpore et ab anima emanare. Set illa que a corpore procedit ut natura operans est aut forma corporalis corporis specifica que [fol. 18v, col. 2] tota species dicitur aut est eius complexio et cum singulis menbris sua propria forma specifica respondeat et toti et una generalis aut quedam ex omnibus propriis aggregata, illa que partibus respondet est propria species aut complexio; illa autem que toti est deputata, est aliqua super particulares collocata a singulis diversa toti propria et nulli appropriata aut ex illis omnibus particularibus aggregata.
+          </p>
+          <p>Hec autem qie ex corpore emanat ad corporis viventis regimen non sufficit, quippe cum viventibus et non viventibus virtus regitiva naturalis insit et anima a corpore recedente et vigore corporis exspirante corporis ammittitur reginem ut in corruptionem cedat, necesse est igitur virtutem viventis corporis regitivam ab anima procedere, nam anima ad vite corporis conservationem et regimini corpori accommodatur, gec autem virtus aut est substantia anime vitam et perfectionem et regimen exibens corpori aut in se spiritualis substantie utens ratione ad corporis regimen inclinata virtus eius dicitur regitiva, aut est virtus ab eius substantia emanans; et si virtus eius est aut est virtus ab omnibus aliis diversa ab anime substantia primo et ante alias proximius procedens aut est aliqua aliarum aut ex omnibus aggregata aut in singulorum genere una principaliter constituta. </p>
+          <p>Virtus igitur corporis est regitiva potentia corpori ad eius conservationem et regimen accomoodata que totam eius machinam partesque eius continet, singulas gubernat, ordinat ac disponit. Set quia anima vegetalis que modo nature operans naturales virtutes dicitur continere ad conservationem corporis ac regimen destinatur, ideo hec virtus regitiva ab ea emanare censetur. </p>
+     </div>
+     <div>
+        <head>CAPITULUM SECUNDUM: DE DIFFERENTIARUM EIUS DISTINCTIONE </head>
+          <p>Virtus vero regitiva duplex: quedam particularis et altera universalis distinguitur. Particularis vero dicitur virtus cuilibet mnebro particulari insita ad eius conservationem ac regimen destinata. Universalis vero virtus universe machine corporis regiminis curam gerens ad eius contitutionem ac dispositionem et ordinem destinata. </p>
+          <p>Particularis vero quedam est influens; quedam vero innata. Influens vero est virtus a menbris principalibus orta ad menbra particularia delegata eis conservationem ac regimen impendens, nam menbra principalia suas virtutes quarum officio deputantur, menbris singulis mandant, ut in ipsis vite et operationum regimen continuetur. Innata vero est virtus que cuilibet menbra a sua prima origine radicitus est inserta ad eius sustentationem ac regimen ordinata. Set cum menbra principalia trium virtutum principalium sunt fundamentum: naturalis, vitalis et animalis, et singule multiformes optinent differentias. </p>
+          <p>Virtus regitiva influens secundum singulas singularumque differentias recipit distinctionem. Menbrum igitur quodlibet recipit regitivam influentem naturalem secundum omnes suas differentias: nutritivam, augmentativam, et generativam, cum omnibus ipsarum annexis, et similiter vitalem et similiter animalem, sensibilem et motivam; singule enim differentie in suo proprio genere et ordine regiminis corporis et menbrorum principia iudicantur.<pb> </pb> </p>
+          <p>Innata vero est virtus que(dam) ex parte corporis, quedam ex parte anime procedit naturaliter dicta eo quod non ex officio anime set ex corporis officio operetur, est duplex: una est virtus formam specificam consequens. altera est virtus complexionalis. Virtus vero speciem [fol.19r, col.1] consequens est in potentia a forma propria menbri completiva emanans ad eius regimen et custodiam ordinata. </p>
+          <p>Nam sicut in omni re est forma esse specificum conferens similiter in quolibet menbro ex suorum elementorum concursu resultat hec forma que ei esse tribuit et sua natura ipsum dirigit ac conservat. </p>
+          <p>Virtus vero complexionalis est potentia complexionem que ex qualitatum concursu resultat consequens ad menbri conservationem et eius opera sicut medium instrumentale destinata; que autem ex parte anime procedit est menbro collata ex copulatione anime a qua emanat, cum eo, quam anima sibi ad eius custodiam et regimen vite et operum amministrat. Hec autem distinguitur secundum omnes anime differentiarum virtutes principales et annexas, quia a qualibet ipsarum regimen cuilibet menbro in suo proprio officio commendatur. set precipue a virtutibus differentie vegetabilibus, naturalibus utentis operibus regimen emanat. </p>
+          <p>Regitiva autem virtus universalis que totius corporis custodie deputatur, duplex distinguitur: quedam enim est ex parte corporis que est virtus naturalis a corpore emanans et hec vel est virtus speciem totius consequens vel virtus complexionalis totius corporis sequens complexionem et utrauqe distincta a virtutibus singulis particularibus vel ex omnibus virtutibus speciem omnen consequentibus vel alia ex complexionalibus omnibus aggregata. Illa vero que est a parte anime, distinguitur secundum differentias anime et virtutes principales et annexas et quedam dicitur esse que totius est specialis nulli propria parti. Altera ex imnium aggregatione constituta. </p>
+          <p>Virtus igitur totius regitiva est potestas naturalis totam corporis constitutionem consequens ad totius machine regimen ordinata et hec est corporalis; illa autem que a parte anime venit est virtus <pb> </pb>univrsalis ab anima emanans totum corpus dirigens, regens, ordinan ac disponens. Virtus autem hec non est una, set in singulis generibus propria regitiva secundum officiorum diversitatem distinguitur. Illa vero que est prima et principalis circa operis regimen curam gerens et virtus naturalis ab anime vegetabili differentia procedens. Hec igitur corpus in vita conservat et ipsum a nocumentis extrinsecis quadam naturali industria defendens et  ad iuvativa conducens et in operibus particularibus ipsum dirigens circa nutrimentum, augmentum et generationem et circa operationes hiis annexas. </p>
+          <p>In secundo autem genere virtutum vitalium est virtus principalis regitiva prima, que forte primo a corde emanat in vite et caloris naturalis et spiritus conservatione totum corpus regens. </p>
+          <p>In tertio similiter virtutum genere animalium est virtus regitiva prima omnes inferiores regens et totius corporis constitutionem in suis officiis disponens et proprie aprehensivarum et motivarum generibus adaptantur. </p>
+          <p>Singularum vero differentiarum organum primum est menbrum principale, a quo unaqueuqe primo emant et sunt organa mandantia principalia et organa recipientia media et recipientia solum singulis deputata. </p>
+      </div>
+      <div>
+        <head>CAPITULUM TERTIUM: DE OPERIBUS EIUS </head>
+          <p>[fol. 19r, col.2]. Virtutis vero naturalis regitive principalis opus in corporis custodia atque regimine attenditur; generaliter vero bifariam dividitur: Unum enim circa rerum iuvativarum attractionem, alterum vero circa motivarum expulsionem attenditur. Utrumque vero omnibus inest menbris. Opus vero attractionis in menbri mandantis delegatione et recipientis susceptione consistit. Iuvativarum vero rerum attractio est duplex: quedam circa res menbro proportionales, ut circa nutritivas attenditur; quedamcirca res menbro simpliciter contrarias, respectu vero sue lesionis sibi iuvativas, ut circa medicinales versatur et opus circa utrasque res in distributione, delegatione et attractione consistit. </p>
+          <p>Menbrum igitur alicuius necessitatis officio principali deputatum virtutem habet regitivam que ipsum regit in sui officii operatione et nutrimentum preparat et cum ad preparationis perfectionem deductum est, ipsum in diversas partes distribuit et singulis menbris proprias et decentes transmitit proportiones. Menbrorum mediorum officio concurrente et in menbro receptivo virtus regitiva nutrimenti proportionem attrahit iuvativam. Similiter autem et virtus regitiva menbri principalis medicinam iuvativam in partes diversas segregat; et singulas diversis menbris transmittit morbis variis respondentes. </p>
+          <p>Virtus vero menbri suscipientis regitiva quamvis in sua naturali dispositione menbro existente non attrahat nisi nutrimenti partem similem iuvativam, tamen, cum materialem contrahit dispositionem, medicinam attrahit vel eius virtutem recipit ut morbo medi- <pb> </pb>cine iuvamine expellendo repugnet que menbri nature sit contraria, tamen respectu morbi ammovendi ei amica ac proportionalis efficitur. </p>
+          <p>Regitiva vero que menbro cuilibet deputatur ad nocivorum expulsionem superfluitates quantitate vel quanlitate excedentes in substantia corruptinem habentes ab eo expellit, unde ipsa virtutes particulares expulsivas preparat ad morborum oppugnationem et secundum temporis determinationem eas regit ad crisim peragendam. </p>
+          <p>Virtus vero regitiva vitalis que in corde possidet fundamentum, cor regit et vitam ei concessam et spiritum et calorem naturalem conservat et non solum cordi prestat regimen set et singulis menbris conservationem ac gubernationem in acto vite et operationum ministrat et ab officio gubernationis quo in suis gerit operibus regitiva notatur. </p>
+          <p>Animalis autem regitiva corpus in operatione sensibili et motu voluntario dirigit, ordinat ac disponit et unaqueque virtus particularis sensibilis aut motiva cum corpus in suis propriis regat operibus, regitiva ex iure officii nuncupatur. Set inter ipsas virtus superior, ut estimativa et intellectiva, cuius imperio inferiores subiciuntur, maxime gerit officium regitive. </p>
+          <p>Cum igitur quelibet inferior, operis officio, regitiva dicatur et in singulis generibus diverse regitive assignentur videtur virtus regitiva in omnium aggregatione consistere et per omnes et in  omnibus operari et in singulorum operibus circa gubernationem corporis curam et effectum regiminis exercere. </p>
+      </div>
+      <div>
+        <head>CAPITULUM QUARTUM: DE ORDINE GRADUUM HUIUS VIRTUTIS </head>
+          <p>In actibus vero et officis virtute regitive multiformes gradus decenti ordine disponuntur qui in singulis virtutum generibus distinguuntur. In officis igitur virtutis regitive naturalis que prima et principalis existit, quinque principia concurrunt que in toto corpore et in quolibet menbro necessario consistere iudicantur: complexio a qua virtus complexionalis emanat, compositio modos menbris organicis debitos comprehendens, forma specifica que tota species iure censetur a qua emanat virtus consequens speciem, virtus anime menbrum perficiens, substantia anime a qua hec virtus egreditur. Anime igitur substantia actum primum vite tribuens virtutem ab ipsa emanantem dirigit. Virtus vero anime virtutem corporalem totam speciem consequentem sibi subiectam disponit. Hec autem complexionem et compositionem regens utraque tamquam instrumentali utitur dispositione, virtute, complexione in operibus naturalibus contrapositione circa menbrorum organicorum necessitatem utens. Et in hoc ordine virtutes naturales particulares annexe principalibus ministrant et ad hec opera exercenda concurrit calor naturalis qui nature dicitur instrumentum. omnia vero hec opera ad actus primi vite salvam continuationem finaliter ordinatur.
+          </p>
+          <p>Similiter autem et in vitali regimine concurrunt menbri complexionalis virtus compositio virtus speciem consequens, virtus animalis, et anime substantia vitam prestans et virtus anime substanite eius, virtuti anime, virtutis corporalis speciei. Huic ergo <pb> </pb>complexio subiciutr, et virtutes particulares et inferiores superiori sunt subiecte; et hec opera ad vite et actus consequentium actuum conservationem et gubernationem ordinantur. </p>
+          <p>Eundem bero ordinem habent virtutes animales in suo regimine, in quo virtus complexionalis, compositio, virtus speciei corporalis, virtus anime et anime substantia concurrunt. Substantia vero anime eius virtutem, virtus virtutem speciei corporalis, hec autem complexionem et compositionem dirigere iudicantur et cum animalium virtutem duplex sit genus sensibilium ac motivarum, virtus superior in suo genere inferiorem regit ut supprema virtus intellectiva inferiores, ultima vero estimativa; hec autem inferiores sensitivas, quousque regimen ad exteriores virtutes extendatur. Similiter autem et superior intellectiva motiva inferiores regit et ultima sensitiva quousque regimen ad particulares pervenit motivas et huic toti regimini tota corporis machina cum suis corporalibus virtutibus est subiecta. Ex omnibus igitur officiarum actibus a virtutibus regitivis emanantibus ordine congruo dispositis tota corporis constitutio regitur et in vite salubri continuatione conservatur et ad opera finalia appatu (sic) debito deputatur.
+          </p>
+          <p>EXPLICIT TRACTACTUS QUARTUS </p>
+      </div>
+    </body>
+  </text>
+</TEI>
